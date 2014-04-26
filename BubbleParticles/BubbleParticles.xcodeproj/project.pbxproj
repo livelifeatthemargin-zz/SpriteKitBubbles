@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB4AE2A190B2D6D00F3B219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB4AE29190B2D6D00F3B219 /* Cocoa.framework */; };
+		DCB4AE2C190B2D6D00F3B219 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB4AE2B190B2D6D00F3B219 /* SpriteKit.framework */; };
+		DCB4AE36190B2D6D00F3B219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE34190B2D6D00F3B219 /* InfoPlist.strings */; };
+		DCB4AE38190B2D6D00F3B219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB4AE37190B2D6D00F3B219 /* main.m */; };
+		DCB4AE3C190B2D6D00F3B219 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE3A190B2D6D00F3B219 /* Credits.rtf */; };
+		DCB4AE3E190B2D6D00F3B219 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE3D190B2D6D00F3B219 /* MainMenu.xib */; };
+		DCB4AE40190B2D6D00F3B219 /* KVGMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB4AE3F190B2D6D00F3B219 /* KVGMyScene.m */; };
+		DCB4AE43190B2D6D00F3B219 /* KVGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB4AE42190B2D6D00F3B219 /* KVGAppDelegate.m */; };
+		DCB4AE46190B2D6D00F3B219 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE45190B2D6D00F3B219 /* Spaceship.png */; };
+		DCB4AE48190B2D6D00F3B219 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE47190B2D6D00F3B219 /* Images.xcassets */; };
+		DCB4AE4F190B2D6D00F3B219 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB4AE4E190B2D6D00F3B219 /* XCTest.framework */; };
+		DCB4AE50190B2D6D00F3B219 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB4AE29190B2D6D00F3B219 /* Cocoa.framework */; };
+		DCB4AE58190B2D6D00F3B219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE56190B2D6D00F3B219 /* InfoPlist.strings */; };
+		DCB4AE5A190B2D6D00F3B219 /* BubbleParticlesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB4AE59190B2D6D00F3B219 /* BubbleParticlesTests.m */; };
+		DCB4AE64190B313100F3B219 /* Bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB4AE63190B313100F3B219 /* Bubble.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB4AE51190B2D6D00F3B219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB4AE1E190B2D6D00F3B219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB4AE25190B2D6D00F3B219;
+			remoteInfo = BubbleParticles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB4AE26190B2D6D00F3B219 /* BubbleParticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleParticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB4AE29190B2D6D00F3B219 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DCB4AE2B190B2D6D00F3B219 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		DCB4AE2E190B2D6D00F3B219 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DCB4AE2F190B2D6D00F3B219 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCB4AE30190B2D6D00F3B219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCB4AE33190B2D6D00F3B219 /* BubbleParticles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleParticles-Info.plist"; sourceTree = "<group>"; };
+		DCB4AE35190B2D6D00F3B219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB4AE37190B2D6D00F3B219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCB4AE39190B2D6D00F3B219 /* BubbleParticles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BubbleParticles-Prefix.pch"; sourceTree = "<group>"; };
+		DCB4AE3B190B2D6D00F3B219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DCB4AE3D190B2D6D00F3B219 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DCB4AE3F190B2D6D00F3B219 /* KVGMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVGMyScene.m; sourceTree = "<group>"; };
+		DCB4AE41190B2D6D00F3B219 /* KVGMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVGMyScene.h; sourceTree = "<group>"; };
+		DCB4AE42190B2D6D00F3B219 /* KVGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVGAppDelegate.m; sourceTree = "<group>"; };
+		DCB4AE44190B2D6D00F3B219 /* KVGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVGAppDelegate.h; sourceTree = "<group>"; };
+		DCB4AE45190B2D6D00F3B219 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		DCB4AE47190B2D6D00F3B219 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCB4AE4D190B2D6D00F3B219 /* BubbleParticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleParticlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB4AE4E190B2D6D00F3B219 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCB4AE55190B2D6D00F3B219 /* BubbleParticlesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BubbleParticlesTests-Info.plist"; sourceTree = "<group>"; };
+		DCB4AE57190B2D6D00F3B219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB4AE59190B2D6D00F3B219 /* BubbleParticlesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleParticlesTests.m; sourceTree = "<group>"; };
+		DCB4AE63190B313100F3B219 /* Bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bubble.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB4AE23190B2D6D00F3B219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE2C190B2D6D00F3B219 /* SpriteKit.framework in Frameworks */,
+				DCB4AE2A190B2D6D00F3B219 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB4AE4A190B2D6D00F3B219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE50190B2D6D00F3B219 /* Cocoa.framework in Frameworks */,
+				DCB4AE4F190B2D6D00F3B219 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB4AE1D190B2D6D00F3B219 = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE31190B2D6D00F3B219 /* BubbleParticles */,
+				DCB4AE53190B2D6D00F3B219 /* BubbleParticlesTests */,
+				DCB4AE28190B2D6D00F3B219 /* Frameworks */,
+				DCB4AE27190B2D6D00F3B219 /* Products */,
+				DCB4AE63190B313100F3B219 /* Bubble.png */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB4AE27190B2D6D00F3B219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE26190B2D6D00F3B219 /* BubbleParticles.app */,
+				DCB4AE4D190B2D6D00F3B219 /* BubbleParticlesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB4AE28190B2D6D00F3B219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE29190B2D6D00F3B219 /* Cocoa.framework */,
+				DCB4AE2B190B2D6D00F3B219 /* SpriteKit.framework */,
+				DCB4AE4E190B2D6D00F3B219 /* XCTest.framework */,
+				DCB4AE2D190B2D6D00F3B219 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB4AE2D190B2D6D00F3B219 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE2E190B2D6D00F3B219 /* AppKit.framework */,
+				DCB4AE2F190B2D6D00F3B219 /* CoreData.framework */,
+				DCB4AE30190B2D6D00F3B219 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DCB4AE31190B2D6D00F3B219 /* BubbleParticles */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE3D190B2D6D00F3B219 /* MainMenu.xib */,
+				DCB4AE3F190B2D6D00F3B219 /* KVGMyScene.m */,
+				DCB4AE41190B2D6D00F3B219 /* KVGMyScene.h */,
+				DCB4AE42190B2D6D00F3B219 /* KVGAppDelegate.m */,
+				DCB4AE44190B2D6D00F3B219 /* KVGAppDelegate.h */,
+				DCB4AE45190B2D6D00F3B219 /* Spaceship.png */,
+				DCB4AE47190B2D6D00F3B219 /* Images.xcassets */,
+				DCB4AE32190B2D6D00F3B219 /* Supporting Files */,
+			);
+			path = BubbleParticles;
+			sourceTree = "<group>";
+		};
+		DCB4AE32190B2D6D00F3B219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE33190B2D6D00F3B219 /* BubbleParticles-Info.plist */,
+				DCB4AE34190B2D6D00F3B219 /* InfoPlist.strings */,
+				DCB4AE37190B2D6D00F3B219 /* main.m */,
+				DCB4AE39190B2D6D00F3B219 /* BubbleParticles-Prefix.pch */,
+				DCB4AE3A190B2D6D00F3B219 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB4AE53190B2D6D00F3B219 /* BubbleParticlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE59190B2D6D00F3B219 /* BubbleParticlesTests.m */,
+				DCB4AE54190B2D6D00F3B219 /* Supporting Files */,
+			);
+			path = BubbleParticlesTests;
+			sourceTree = "<group>";
+		};
+		DCB4AE54190B2D6D00F3B219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB4AE55190B2D6D00F3B219 /* BubbleParticlesTests-Info.plist */,
+				DCB4AE56190B2D6D00F3B219 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB4AE25190B2D6D00F3B219 /* BubbleParticles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB4AE5D190B2D6D00F3B219 /* Build configuration list for PBXNativeTarget "BubbleParticles" */;
+			buildPhases = (
+				DCB4AE22190B2D6D00F3B219 /* Sources */,
+				DCB4AE23190B2D6D00F3B219 /* Frameworks */,
+				DCB4AE24190B2D6D00F3B219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleParticles;
+			productName = BubbleParticles;
+			productReference = DCB4AE26190B2D6D00F3B219 /* BubbleParticles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB4AE4C190B2D6D00F3B219 /* BubbleParticlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB4AE60190B2D6D00F3B219 /* Build configuration list for PBXNativeTarget "BubbleParticlesTests" */;
+			buildPhases = (
+				DCB4AE49190B2D6D00F3B219 /* Sources */,
+				DCB4AE4A190B2D6D00F3B219 /* Frameworks */,
+				DCB4AE4B190B2D6D00F3B219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB4AE52190B2D6D00F3B219 /* PBXTargetDependency */,
+			);
+			name = BubbleParticlesTests;
+			productName = BubbleParticlesTests;
+			productReference = DCB4AE4D190B2D6D00F3B219 /* BubbleParticlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB4AE1E190B2D6D00F3B219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KVG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KingVinceGames;
+				TargetAttributes = {
+					DCB4AE4C190B2D6D00F3B219 = {
+						TestTargetID = DCB4AE25190B2D6D00F3B219;
+					};
+				};
+			};
+			buildConfigurationList = DCB4AE21190B2D6D00F3B219 /* Build configuration list for PBXProject "BubbleParticles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCB4AE1D190B2D6D00F3B219;
+			productRefGroup = DCB4AE27190B2D6D00F3B219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB4AE25190B2D6D00F3B219 /* BubbleParticles */,
+				DCB4AE4C190B2D6D00F3B219 /* BubbleParticlesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB4AE24190B2D6D00F3B219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE46190B2D6D00F3B219 /* Spaceship.png in Resources */,
+				DCB4AE48190B2D6D00F3B219 /* Images.xcassets in Resources */,
+				DCB4AE36190B2D6D00F3B219 /* InfoPlist.strings in Resources */,
+				DCB4AE64190B313100F3B219 /* Bubble.png in Resources */,
+				DCB4AE3C190B2D6D00F3B219 /* Credits.rtf in Resources */,
+				DCB4AE3E190B2D6D00F3B219 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB4AE4B190B2D6D00F3B219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE58190B2D6D00F3B219 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB4AE22190B2D6D00F3B219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE38190B2D6D00F3B219 /* main.m in Sources */,
+				DCB4AE43190B2D6D00F3B219 /* KVGAppDelegate.m in Sources */,
+				DCB4AE40190B2D6D00F3B219 /* KVGMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB4AE49190B2D6D00F3B219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB4AE5A190B2D6D00F3B219 /* BubbleParticlesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB4AE52190B2D6D00F3B219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB4AE25190B2D6D00F3B219 /* BubbleParticles */;
+			targetProxy = DCB4AE51190B2D6D00F3B219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB4AE34190B2D6D00F3B219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB4AE35190B2D6D00F3B219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCB4AE3A190B2D6D00F3B219 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB4AE3B190B2D6D00F3B219 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DCB4AE56190B2D6D00F3B219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB4AE57190B2D6D00F3B219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB4AE5B190B2D6D00F3B219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCB4AE5C190B2D6D00F3B219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCB4AE5E190B2D6D00F3B219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleParticles/BubbleParticles-Prefix.pch";
+				INFOPLIST_FILE = "BubbleParticles/BubbleParticles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCB4AE5F190B2D6D00F3B219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleParticles/BubbleParticles-Prefix.pch";
+				INFOPLIST_FILE = "BubbleParticles/BubbleParticles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCB4AE61190B2D6D00F3B219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleParticles.app/Contents/MacOS/BubbleParticles";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleParticles/BubbleParticles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BubbleParticlesTests/BubbleParticlesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCB4AE62190B2D6D00F3B219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BubbleParticles.app/Contents/MacOS/BubbleParticles";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BubbleParticles/BubbleParticles-Prefix.pch";
+				INFOPLIST_FILE = "BubbleParticlesTests/BubbleParticlesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB4AE21190B2D6D00F3B219 /* Build configuration list for PBXProject "BubbleParticles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB4AE5B190B2D6D00F3B219 /* Debug */,
+				DCB4AE5C190B2D6D00F3B219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB4AE5D190B2D6D00F3B219 /* Build configuration list for PBXNativeTarget "BubbleParticles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB4AE5E190B2D6D00F3B219 /* Debug */,
+				DCB4AE5F190B2D6D00F3B219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB4AE60190B2D6D00F3B219 /* Build configuration list for PBXNativeTarget "BubbleParticlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB4AE61190B2D6D00F3B219 /* Debug */,
+				DCB4AE62190B2D6D00F3B219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB4AE1E190B2D6D00F3B219 /* Project object */;
+}
